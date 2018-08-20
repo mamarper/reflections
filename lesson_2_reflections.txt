@@ -16,6 +16,8 @@ When you want to intoduce some experimental changes or change the language. You 
 
 How do the diagrams help you visualize the branch structure?
 
+You can have a glance of all the different branches and commits included in each of them. You can also detect possible unreachable commits.
+
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
