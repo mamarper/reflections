@@ -20,4 +20,6 @@ You can have a glance of all the different branches and commits included in each
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+You get done in one branch all the commits done for the two branches, so the repository is updated with the changes introduced in both of them. In the diagram this will be represented by a new commit merging the two branches.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
