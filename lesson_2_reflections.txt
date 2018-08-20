@@ -8,6 +8,8 @@ The staging area contains the files to be included in the next commit. The worki
 
 How can you use the staging area to make sure you have one commit per logical change?
 
+You can compare and see the differences between the working directory, the staging area and the last commit using git diff and git diff --staged.
+
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
