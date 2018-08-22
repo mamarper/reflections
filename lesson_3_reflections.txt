@@ -4,4 +4,12 @@ When working on a team project or when you want to share your project with other
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-Because you may be trying some new features or fixing bugs on your local repository before pushing them to the remote. In that case, you may want to create a different branch and merge them when ready.
+Because you may be trying some new features or fixing bugs on your local repository before pushing them to the remote. Or maybe you are not interested in adding some of the new features made by other collaborators. In either case, you may want to create a different branch before pulling changes so you can merge them if necessary.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Forks: clone a GitHub repository into another GitHub repository. Changes yo make don't affect the original repository.
+
+Clones: copy a repository into another one (from remote to local, from local to remote or even from local to local).ç
+
+Branches: different paths (commits) inside one repository. Useful when you want to add new features or fix bugs before merging them to the master branch (if necessary).
