@@ -17,3 +17,10 @@ Branches: different paths (commits) inside one repository. Useful when you want 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can work on some new features and be able to know where the local and the remote diverge, merging and solving conflicts manually when necessary. For example, you can update just the local copy of the remote branch, leaving your actual local version alone, so you can review the changes that have been made without committing right away and incorporate them into your master branch whenever you want. Quite useful when you are working offline for a while.
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+I'd work with shared documents on a shared server, but in that case each file could only be modified by one user at a time. If different users would have to modify one file at the same time, they would have to create different versions of it and then compare and merge changes manually, which would be incredibly tedious (or even imposible) in a large project. 
+
+The only thing that would be easier is that team workers wouldn't have to learn how to use Git and GitHub if they don't know it yet. But it would be much harder to control and keep track of the changes made by different users and to resolve possible conflicts.
+
