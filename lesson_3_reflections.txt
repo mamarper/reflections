@@ -24,3 +24,8 @@ I'd work with shared documents on a shared server, but in that case each file co
 
 The only thing that would be easier is that team workers wouldn't have to learn how to use Git and GitHub if they don't know it yet. But it would be much harder to control and keep track of the changes made by different users and to resolve possible conflicts.
 
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+When adding some new features or changes you want others to review before merging into the master branch. That way you collaborators can give feedback about other's changes and propose modifications if necessary. However, making changes directly in master allow the changes being quickly available to everyone.
+
+You may also want to make changes in a separate branch when working on new features you don't want to merge into the master until they are fully developed, so they don't interfere with the main functionality. In that case, the benefits of making them in the master is you have always the latest version of the program, so you don't have to review and resolve possible conflicts later.
